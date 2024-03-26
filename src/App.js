@@ -89,7 +89,7 @@ function App() {
     </select>
 
     <br/>
-    {(country && state && city) ? `You Selected ${city},${state},${country} ` : null}
+    {(country && state && city) ? <p>You selected {city}, {state}, {country}</p> : null}
     </>
   );
 }
